@@ -1,0 +1,18 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: basic-web-srv
+spec:
+  selector:
+    matchLabels:
+      app: basic-web-srv
+  replicas: 1
+  template: # template for the pods
+    metadata:
+      labels:
+        app: basic-web-srv
+    spec:
+      containers:
+      - name: pradeep
+        image: pradeepsukale/demowebserv:latest
