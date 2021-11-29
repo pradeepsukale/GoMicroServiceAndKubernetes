@@ -10,3 +10,12 @@ File: myService.yaml
    
 File: Dockerfile
   1.Copies source code into container. 2. gets gin-gonic from github  3. Builds image   4. Starts image
+  
+  
+  kubernetes commands used:
+  
+  1. kubectl apply -f filename
+  2. kubectl get pods
+  3. kubectl get all
+  4. minikube ip
+  
