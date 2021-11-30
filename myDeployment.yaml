@@ -14,5 +14,5 @@ spec:
         app: basic-web-srv
     spec:
       containers:
-      - name: pradeep
+      - name: basic-web-srv
         image: pradeepsukale/demowebserv:latest
