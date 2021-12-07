@@ -18,4 +18,9 @@ File: Dockerfile
   2. kubectl get pods
   3. kubectl get all
   4. minikube ip
-  
+ 
+ 
+ Docker commands:
+ 
+ 1. docker image build -t pradeepsukale/basicwebservice
+ 2. docker push pradeepsukale/basicwebservice
